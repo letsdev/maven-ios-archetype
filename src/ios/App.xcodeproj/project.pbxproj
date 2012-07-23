@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829D2EF515B98DD900785BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF415B98DD900785BE8 /* UIKit.framework */; };
+		829D2EF715B98DD900785BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF615B98DD900785BE8 /* Foundation.framework */; };
+		829D2EF915B98DD900785BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF815B98DD900785BE8 /* CoreGraphics.framework */; };
+		829D2EFF15B98DD900785BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829D2EFD15B98DD900785BE8 /* InfoPlist.strings */; };
+		829D2F0115B98DD900785BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0015B98DD900785BE8 /* main.m */; };
+		829D2F0515B98DD900785BE8 /* LDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0415B98DD900785BE8 /* LDAppDelegate.m */; };
+		829D2F1315B98F4F00785BE8 /* CocoaLumberJack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F1215B98F4F00785BE8 /* CocoaLumberJack.framework */; };
+		829D2F5515B9B3F000785BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0015B98DD900785BE8 /* main.m */; };
+		829D2F5615B9B3F000785BE8 /* LDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0415B98DD900785BE8 /* LDAppDelegate.m */; };
+		829D2F5815B9B3F000785BE8 /* CocoaLumberJack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F1215B98F4F00785BE8 /* CocoaLumberJack.framework */; };
+		829D2F5A15B9B3F000785BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF415B98DD900785BE8 /* UIKit.framework */; };
+		829D2F5B15B9B3F000785BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF615B98DD900785BE8 /* Foundation.framework */; };
+		829D2F5C15B9B3F000785BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF815B98DD900785BE8 /* CoreGraphics.framework */; };
+		829D2F5E15B9B3F000785BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829D2EFD15B98DD900785BE8 /* InfoPlist.strings */; };
+		829D2F6615B9B42100785BE8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F6515B9B42100785BE8 /* CFNetwork.framework */; };
+		829D2F7515B9B48B00785BE8 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F6915B9B48B00785BE8 /* my_first.feature */; };
+		829D2F7615B9B48B00785BE8 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F6B15B9B48B00785BE8 /* launch_steps.rb */; };
+		829D2F7715B9B48B00785BE8 /* bundle_path.rb in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F6D15B9B48B00785BE8 /* bundle_path.rb */; };
+		829D2F7815B9B48B00785BE8 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F6E15B9B48B00785BE8 /* env.rb */; };
+		829D2F7915B9B48B00785BE8 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F6F15B9B48B00785BE8 /* frank_static_resources.bundle */; };
+		829D2F7A15B9B48B00785BE8 /* Frankified.app in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F7115B9B48B00785BE8 /* Frankified.app */; };
+		829D2F7B15B9B48B00785BE8 /* frankify.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 829D2F7215B9B48B00785BE8 /* frankify.xcconfig */; };
+		829D2F7F15B9B56300785BE8 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F7E15B9B56300785BE8 /* libFrank.a */; };
+		829D2F8115B9B8F000785BE8 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F8015B9B8F000785BE8 /* libShelley.a */; };
+		829D2F9615B9C03000785BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0015B98DD900785BE8 /* main.m */; };
+		829D2F9715B9C03000785BE8 /* LDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2F0415B98DD900785BE8 /* LDAppDelegate.m */; };
+		829D2F9915B9C03000785BE8 /* CocoaLumberJack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2F1215B98F4F00785BE8 /* CocoaLumberJack.framework */; };
+		829D2F9A15B9C03000785BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF415B98DD900785BE8 /* UIKit.framework */; };
+		829D2F9B15B9C03000785BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF615B98DD900785BE8 /* Foundation.framework */; };
+		829D2F9C15B9C03000785BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2EF815B98DD900785BE8 /* CoreGraphics.framework */; };
+		829D2F9E15B9C03000785BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829D2EFD15B98DD900785BE8 /* InfoPlist.strings */; };
+		829D2FA615B9C07500785BE8 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829D2FA515B9C07500785BE8 /* GHUnitIOS.framework */; };
+		829D2FAA15B9C1B900785BE8 /* LDGHUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 829D2FA915B9C1B900785BE8 /* LDGHUnitTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		829D2EF015B98DD900785BE8 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829D2EF415B98DD900785BE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		829D2EF615B98DD900785BE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		829D2EF815B98DD900785BE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		829D2EFC15B98DD900785BE8 /* App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App-Info.plist"; sourceTree = "<group>"; };
+		829D2EFE15B98DD900785BE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		829D2F0015B98DD900785BE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		829D2F0215B98DD900785BE8 /* App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Prefix.pch"; sourceTree = "<group>"; };
+		829D2F0315B98DD900785BE8 /* LDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDAppDelegate.h; sourceTree = "<group>"; };
+		829D2F0415B98DD900785BE8 /* LDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDAppDelegate.m; sourceTree = "<group>"; };
+		829D2F1215B98F4F00785BE8 /* CocoaLumberJack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberJack.framework; path = "../../target/ios-dependencies/CocoaLumberJack.framework"; sourceTree = "<group>"; };
+		829D2F3315B9AA6600785BE8 /* App copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "App copy-Info.plist"; path = "/Volumes/Data/Users/phaaser/git/App/src/ios/App copy-Info.plist"; sourceTree = "<absolute>"; };
+		829D2F6215B9B3F000785BE8 /* AppFrank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFrank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829D2F6415B9B3F000785BE8 /* AppFrank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppFrank-Info.plist"; path = "/Volumes/Data/Users/phaaser/git/App/src/ios/AppFrank-Info.plist"; sourceTree = "<absolute>"; };
+		829D2F6515B9B42100785BE8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		829D2F6915B9B48B00785BE8 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		829D2F6B15B9B48B00785BE8 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		829D2F6D15B9B48B00785BE8 /* bundle_path.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = bundle_path.rb; sourceTree = "<group>"; };
+		829D2F6E15B9B48B00785BE8 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		829D2F6F15B9B48B00785BE8 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		829D2F7115B9B48B00785BE8 /* Frankified.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = Frankified.app; sourceTree = "<group>"; };
+		829D2F7215B9B48B00785BE8 /* frankify.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = frankify.xcconfig; sourceTree = "<group>"; };
+		829D2F7315B9B48B00785BE8 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		829D2F7415B9B48B00785BE8 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
+		829D2F7E15B9B56300785BE8 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFrank.a; path = "../../../../XCode_Workspace/Frank/build/Release-iphonesimulator/libFrank.a"; sourceTree = "<group>"; };
+		829D2F8015B9B8F000785BE8 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = ../../../../XCode_Workspace/Frank/Frank/libShelley.a; sourceTree = "<group>"; };
+		829D2F9315B9BE2300785BE8 /* AppGHUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppGHUnit-Info.plist"; path = "/Volumes/Data/Users/phaaser/git/App/src/ios/AppGHUnit-Info.plist"; sourceTree = "<absolute>"; };
+		829D2FA215B9C03000785BE8 /* AppGHUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGHUnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829D2FA515B9C07500785BE8 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../target/ios-dependencies/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		829D2FA915B9C1B900785BE8 /* LDGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDGHUnitTest.m; path = App/LDGHUnitTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829D2EED15B98DD900785BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F1315B98F4F00785BE8 /* CocoaLumberJack.framework in Frameworks */,
+				829D2EF515B98DD900785BE8 /* UIKit.framework in Frameworks */,
+				829D2EF715B98DD900785BE8 /* Foundation.framework in Frameworks */,
+				829D2EF915B98DD900785BE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F5715B9B3F000785BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F7F15B9B56300785BE8 /* libFrank.a in Frameworks */,
+				829D2F6615B9B42100785BE8 /* CFNetwork.framework in Frameworks */,
+				829D2F5815B9B3F000785BE8 /* CocoaLumberJack.framework in Frameworks */,
+				829D2F5A15B9B3F000785BE8 /* UIKit.framework in Frameworks */,
+				829D2F5B15B9B3F000785BE8 /* Foundation.framework in Frameworks */,
+				829D2F5C15B9B3F000785BE8 /* CoreGraphics.framework in Frameworks */,
+				829D2F8115B9B8F000785BE8 /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F9815B9C03000785BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2FA615B9C07500785BE8 /* GHUnitIOS.framework in Frameworks */,
+				829D2F9915B9C03000785BE8 /* CocoaLumberJack.framework in Frameworks */,
+				829D2F9A15B9C03000785BE8 /* UIKit.framework in Frameworks */,
+				829D2F9B15B9C03000785BE8 /* Foundation.framework in Frameworks */,
+				829D2F9C15B9C03000785BE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829D2EE515B98DD900785BE8 = {
+			isa = PBXGroup;
+			children = (
+				829D2F6715B9B48B00785BE8 /* Frank */,
+				829D2EFA15B98DD900785BE8 /* App */,
+				829D2EF315B98DD900785BE8 /* Frameworks */,
+				829D2EF115B98DD900785BE8 /* Products */,
+				829D2FA715B9C0BE00785BE8 /* Test */,
+				829D2F3315B9AA6600785BE8 /* App copy-Info.plist */,
+				829D2F6415B9B3F000785BE8 /* AppFrank-Info.plist */,
+				829D2F9315B9BE2300785BE8 /* AppGHUnit-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		829D2EF115B98DD900785BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829D2EF015B98DD900785BE8 /* App.app */,
+				829D2F6215B9B3F000785BE8 /* AppFrank.app */,
+				829D2FA215B9C03000785BE8 /* AppGHUnit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829D2EF315B98DD900785BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F8015B9B8F000785BE8 /* libShelley.a */,
+				829D2F7E15B9B56300785BE8 /* libFrank.a */,
+				829D2FA515B9C07500785BE8 /* GHUnitIOS.framework */,
+				829D2F6515B9B42100785BE8 /* CFNetwork.framework */,
+				829D2F1215B98F4F00785BE8 /* CocoaLumberJack.framework */,
+				829D2EF415B98DD900785BE8 /* UIKit.framework */,
+				829D2EF615B98DD900785BE8 /* Foundation.framework */,
+				829D2EF815B98DD900785BE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829D2EFA15B98DD900785BE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F0315B98DD900785BE8 /* LDAppDelegate.h */,
+				829D2F0415B98DD900785BE8 /* LDAppDelegate.m */,
+				829D2EFB15B98DD900785BE8 /* Supporting Files */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		829D2EFB15B98DD900785BE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829D2EFC15B98DD900785BE8 /* App-Info.plist */,
+				829D2EFD15B98DD900785BE8 /* InfoPlist.strings */,
+				829D2F0015B98DD900785BE8 /* main.m */,
+				829D2F0215B98DD900785BE8 /* App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		829D2F6715B9B48B00785BE8 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F6815B9B48B00785BE8 /* features */,
+				829D2F6F15B9B48B00785BE8 /* frank_static_resources.bundle */,
+				829D2F7015B9B48B00785BE8 /* frankified_build */,
+				829D2F7215B9B48B00785BE8 /* frankify.xcconfig */,
+				829D2F7315B9B48B00785BE8 /* libFrank.a */,
+				829D2F7415B9B48B00785BE8 /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		829D2F6815B9B48B00785BE8 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F6915B9B48B00785BE8 /* my_first.feature */,
+				829D2F6A15B9B48B00785BE8 /* step_definitions */,
+				829D2F6C15B9B48B00785BE8 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		829D2F6A15B9B48B00785BE8 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F6B15B9B48B00785BE8 /* launch_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		829D2F6C15B9B48B00785BE8 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F6D15B9B48B00785BE8 /* bundle_path.rb */,
+				829D2F6E15B9B48B00785BE8 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		829D2F7015B9B48B00785BE8 /* frankified_build */ = {
+			isa = PBXGroup;
+			children = (
+				829D2F7115B9B48B00785BE8 /* Frankified.app */,
+			);
+			path = frankified_build;
+			sourceTree = "<group>";
+		};
+		829D2FA715B9C0BE00785BE8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				829D2FA915B9C1B900785BE8 /* LDGHUnitTest.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829D2EEF15B98DD900785BE8 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829D2F0815B98DD900785BE8 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				829D2EEC15B98DD900785BE8 /* Sources */,
+				829D2EED15B98DD900785BE8 /* Frameworks */,
+				829D2EEE15B98DD900785BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App;
+			productName = App;
+			productReference = 829D2EF015B98DD900785BE8 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		829D2F5315B9B3F000785BE8 /* AppFrank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829D2F5F15B9B3F000785BE8 /* Build configuration list for PBXNativeTarget "AppFrank" */;
+			buildPhases = (
+				829D2F5415B9B3F000785BE8 /* Sources */,
+				829D2F5715B9B3F000785BE8 /* Frameworks */,
+				829D2F5D15B9B3F000785BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppFrank;
+			productName = App;
+			productReference = 829D2F6215B9B3F000785BE8 /* AppFrank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		829D2F9415B9C03000785BE8 /* AppGHUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829D2F9F15B9C03000785BE8 /* Build configuration list for PBXNativeTarget "AppGHUnit" */;
+			buildPhases = (
+				829D2F9515B9C03000785BE8 /* Sources */,
+				829D2F9815B9C03000785BE8 /* Frameworks */,
+				829D2F9D15B9C03000785BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppGHUnit;
+			productName = App;
+			productReference = 829D2FA215B9C03000785BE8 /* AppGHUnit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829D2EE715B98DD900785BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 829D2EEA15B98DD900785BE8 /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 829D2EE515B98DD900785BE8;
+			productRefGroup = 829D2EF115B98DD900785BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829D2EEF15B98DD900785BE8 /* App */,
+				829D2F5315B9B3F000785BE8 /* AppFrank */,
+				829D2F9415B9C03000785BE8 /* AppGHUnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829D2EEE15B98DD900785BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2EFF15B98DD900785BE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F5D15B9B3F000785BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F5E15B9B3F000785BE8 /* InfoPlist.strings in Resources */,
+				829D2F7515B9B48B00785BE8 /* my_first.feature in Resources */,
+				829D2F7615B9B48B00785BE8 /* launch_steps.rb in Resources */,
+				829D2F7715B9B48B00785BE8 /* bundle_path.rb in Resources */,
+				829D2F7815B9B48B00785BE8 /* env.rb in Resources */,
+				829D2F7915B9B48B00785BE8 /* frank_static_resources.bundle in Resources */,
+				829D2F7A15B9B48B00785BE8 /* Frankified.app in Resources */,
+				829D2F7B15B9B48B00785BE8 /* frankify.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F9D15B9C03000785BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F9E15B9C03000785BE8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829D2EEC15B98DD900785BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F0115B98DD900785BE8 /* main.m in Sources */,
+				829D2F0515B98DD900785BE8 /* LDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F5415B9B3F000785BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F5515B9B3F000785BE8 /* main.m in Sources */,
+				829D2F5615B9B3F000785BE8 /* LDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829D2F9515B9C03000785BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829D2F9615B9C03000785BE8 /* main.m in Sources */,
+				829D2F9715B9C03000785BE8 /* LDAppDelegate.m in Sources */,
+				829D2FAA15B9C1B900785BE8 /* LDGHUnitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		829D2EFD15B98DD900785BE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829D2EFE15B98DD900785BE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829D2F0615B98DD900785BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		829D2F0715B98DD900785BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		829D2F0915B98DD900785BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "App/App-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		829D2F0A15B98DD900785BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "App/App-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		829D2F6015B9B3F000785BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "AppFrank-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/Frank\"",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphonesimulator\"",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = AppFrank;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		829D2F6115B9B3F000785BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "AppFrank-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/Frank\"",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphonesimulator\"",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/Frank\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = AppFrank;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		829D2FA015B9C03000785BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "AppGHUnit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = AppGHUnit;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		829D2FA115B9C03000785BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../target/ios-dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/App-Prefix.pch";
+				INFOPLIST_FILE = "AppGHUnit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../XCode_Workspace/Frank/build/Release-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = AppGHUnit;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829D2EEA15B98DD900785BE8 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829D2F0615B98DD900785BE8 /* Debug */,
+				829D2F0715B98DD900785BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829D2F0815B98DD900785BE8 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829D2F0915B98DD900785BE8 /* Debug */,
+				829D2F0A15B98DD900785BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829D2F5F15B9B3F000785BE8 /* Build configuration list for PBXNativeTarget "AppFrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829D2F6015B9B3F000785BE8 /* Debug */,
+				829D2F6115B9B3F000785BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829D2F9F15B9C03000785BE8 /* Build configuration list for PBXNativeTarget "AppGHUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829D2FA015B9C03000785BE8 /* Debug */,
+				829D2FA115B9C03000785BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829D2EE715B98DD900785BE8 /* Project object */;
+}
